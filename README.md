@@ -9,8 +9,11 @@ The compressed file of 6 Supplementary Datasets with large file size. Due to the
 The compressed file of Dataset S7-the Digenic interaction scores for each two coding genes across the whole genome. The compressed file is also moved to our OneDrive (https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg). There are two files in the directory after decompressing the (Dataset_S7-CodingDIScores.zip) file, including Coding_predict_fixed.txt.b and Coding_predict_fixed.txt.d for decoding the compressed file.
 
 # Codes Discription
-## Down-SamplingRF.py
-Use the down-sampling technique for training individual classifiers with different sub-samples.
+## 1_DownSampling.py
+## 2_FeatureSelection.py
+## 3_DownSampleRF.py
+## 4_IntegrateSingleRF.py
+Use the down-sampling technique for training individual classifiers with different sub-samples, and integrate single classifiers for final prediction.
 
 ## transfer.jar
 The pre-calculated digenic interaction potential scores between each two coding genes across the whole genome are available. transfer.jar is the self-defined software for decoding the compressed file of Dataset S6 and searching the digenic scores of specific gene pairs.  
@@ -25,8 +28,8 @@ Users need to download the required files from the web page, including the resou
 
 3.Decode the binary zip file:  
 ```# [java -jar transfer.jar --decode inputFileName outputFileName]```  
-```java -jar transfer.jar --decode Coding_predict_fixed Coding_predict_fixed```  
->If you didn't rename the files in CodingDIScores.tar.bz2, then the inputFileName should be "Coding_predict_fixed" (Without ".d" and ".b"). After decoding, you will get a file with size 3,828,259,574B (3.56G, Coding_predict_fixed.txt). This step will take about 10s.  
+```java -jar transfer.jar --decode Coding_predict_fixed.txt Coding_predict_fixed```  
+>If you didn't rename the files in Dataset_S7-CodingDIScores.zip, then the inputFileName should be "Coding_predict_fixed.txt" (Without ".d" and ".b"). After decoding, you will get a file with size 3,828,259,574B (3.56G, Coding_predict_fixed.txt). This step will take about 10s.  
 
 4.For help:   
 ```java -jar transfer.jar --read -help```  
@@ -34,12 +37,12 @@ Users need to download the required files from the web page, including the resou
 
 5.Searching  
 Search the digenic interaction potential score for specific a gene pair:  
-```java -jar transfer.jar --read Coding_predict_fixed -gn AGRN TAS1R3``` 
+```java -jar transfer.jar --read Coding_predict_fixed.txt -gn AGRN TAS1R3``` 
   
 Search the digenic interaction potential scores with a gene list:  
-```java -jar transfer.jar --read Coding_predict_fixed -gn AGRN TAS1R3 ARHGEF16 CCDC27 CHD5``` 
+```java -jar transfer.jar --read Coding_predict_fixed.txt -gn AGRN TAS1R3 ARHGEF16 CCDC27 CHD5``` 
   
 Set the column name:  
-```java -jar transfer.jar --read Coding_predict_fixed -gn AGRN TAS1R3 --header Ga Gb Score``` 
+```java -jar transfer.jar --read Coding_predict_fixed.txt -gn AGRN TAS1R3 --header Ga Gb Score``` 
 
 
