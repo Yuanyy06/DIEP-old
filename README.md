@@ -11,8 +11,9 @@ The compressed file of Dataset S7-the Digenic interaction scores for each two co
 # Codes Discription
 1_DownSampling.py  
 2_FeatureSelection.py  
-3_DownSampleRF.py  
-4_IntegrateSingleRF.py  
+3_params_adjust_forSingleRf.py  
+4_DownSampleRF.py  
+5_IntegrateSingleRF.py  
 Use the down-sampling technique for training individual classifiers with different sub-samples, and integrate single classifiers for final prediction.
 
 ## transfer.jar
