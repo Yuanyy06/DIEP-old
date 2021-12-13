@@ -8,7 +8,7 @@ The compressed file of 6 Supplementary Datasets with large file size. Due to the
 ## Dataset_S7-CodingDIScores
 The compressed file of Dataset S7-the Digenic interaction scores for each two coding genes across the whole genome. The compressed file is also moved to our OneDrive (https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg?e=VWySpZ). There are two files in the directory after decompressing the (Dataset_S7-CodingDIScores.zip) file, including Coding_predict_fixed.txt.b and Coding_predict_fixed.txt.d for decoding the compressed file.
 
-# Codes Discription
+# Codes Description
 1_DownSampling.py  
 2_FeatureSelection.py  
 3_params_adjust_forSingleRf.py  
