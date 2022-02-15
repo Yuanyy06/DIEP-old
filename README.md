@@ -3,12 +3,17 @@ Gene-gene interaction on the genome is increasingly being proven to play an impo
 
 # File Discription
 ## datasets
-The Supplementary Datasets. Due to the limited storage of Git LFS Data, some datasets with large file size are moved to our OneDrive, the download link is: https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg?e=VWySpZ.
+The Supplementary Datasets (S1-S8). Due to the limited storage of Git LFS Data, some datasets with large file size are moved to our OneDrive, the download link is: https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg?e=VWySpZ.
 
-### Dataset_S7-CodingDIScores
+Dataset_S7-CodingDIScores
 The compressed file of Dataset S7-the Digenic interaction scores for each two coding genes across the whole genome. The compressed file is also moved to our OneDrive (https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg?e=VWySpZ). There are two files in the directory after decompressing the (Dataset_S7-CodingDIScores.zip) file, including Coding_predict_fixed.txt.b and Coding_predict_fixed.txt.d for decoding the compressed file.
 
-# Codes Description
+## ML
+### Trainingset
+
+### Testset
+
+## codes
 1_DownSampling.py  
 2_FeatureSelection.py  
 3_params_adjust_forSingleRf.py  
@@ -19,7 +24,7 @@ Use the down-sampling technique for training individual classifiers with differe
 ## transfer.jar
 The pre-calculated digenic interaction potential scores between each two coding genes across the whole genome are available. transfer.jar is the self-defined software for decoding the compressed file of Dataset S6 and searching the digenic scores of specific gene pairs.  
 
-### User manual
+## User manual
 1.File requirements:  
 Users need to download the required files from the web page, including the resource file (Dataset_S7-CodingDIScores.zip) and the java package (transfer.jar).
 
