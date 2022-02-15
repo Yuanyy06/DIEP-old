@@ -2,10 +2,10 @@
 Gene-gene interaction on the genome is increasingly being proven to play an important role in developing human diseases. However, conventional statistical genetic analyses on the interactions often suffer from a dimension burden on the entire genome. We proposed a framework to predict pathogenic gene pairs with digenic interaction effect based on the biological relatedness or similarity of the genes with an accurate machine-learning approach , named Digenic Interaction Effect Predictor. The digenic interaction potential scores between each two coding genes across the whole genome are available. DIEP reveals potential gene pairs with interactive effects and provides a valuable resource of genome-wide digenic interactions. It might substantially facilitate and motivate many genomic studies on the gene-gene interaction of human diseases.
 
 # File Discription
-## Datasets_S1-S6
-The compressed file of 6 Supplementary Datasets with large file size. Due to the limited storage of Git LFS Data, this datasets are moved to our OneDrive, the download link is: https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg?e=VWySpZ.
+## datasets
+The Supplementary Datasets. Due to the limited storage of Git LFS Data, some datasets with large file size are moved to our OneDrive, the download link is: https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg?e=VWySpZ.
 
-## Dataset_S7-CodingDIScores
+### Dataset_S7-CodingDIScores
 The compressed file of Dataset S7-the Digenic interaction scores for each two coding genes across the whole genome. The compressed file is also moved to our OneDrive (https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg?e=VWySpZ). There are two files in the directory after decompressing the (Dataset_S7-CodingDIScores.zip) file, including Coding_predict_fixed.txt.b and Coding_predict_fixed.txt.d for decoding the compressed file.
 
 # Codes Description
