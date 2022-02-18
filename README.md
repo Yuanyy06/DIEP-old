@@ -12,16 +12,16 @@ All the test sets for model evaluation.
 ### Model
 The selected 26 RF classifiers for ensemble.
 
-## datasets
+## DATASETS
 The Supplementary Datasets (S1-S8). Due to the limited storage of Git LFS Data, some datasets with large file size are moved to our OneDrive, the download link is: https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg?e=VWySpZ.
 
 Dataset_S7-CodingDIScores
 The compressed file of Dataset S7-the Digenic interaction scores for each two coding genes across the whole genome. The compressed file is also moved to our OneDrive (https://mailsysueducn-my.sharepoint.com/:f:/g/personal/limiaoxin_mail_sysu_edu_cn/EjKo3l_HQcZEjHCeqJ9mDREBrtoJSVJjhlPjA1l9OGQGZg?e=VWySpZ). There are two files in the directory after decompressing the (Dataset_S7-CodingDIScores.zip) file, including Coding_predict_fixed.txt.b and Coding_predict_fixed.txt.d for decoding the compressed file.
 
-## tables
+## TABLES
 The Supplementary Tables (S5 and S6).
 
-## codes
+## CODES
 1_DownSampling.py  
 2_FeatureSelection.py  
 3_params_adjust_forSingleRf.py  
