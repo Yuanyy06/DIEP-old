@@ -1,7 +1,7 @@
 # Digenic-Interaction-Effect-Predictor (DIEP)
 Gene-gene interaction on the genome is increasingly being proven to play an important role in developing human diseases. However, conventional statistical genetic analyses on the interactions often suffer from a dimension burden on the entire genome. We proposed a framework to predict pathogenic gene pairs with digenic interaction effect based on the biological relatedness or similarity of the genes with an accurate machine-learning approach , named Digenic Interaction Effect Predictor. The digenic interaction potential scores between each two coding genes across the whole genome are available. DIEP reveals potential gene pairs with interactive effects and provides a valuable resource of genome-wide digenic interactions. It might substantially facilitate and motivate many genomic studies on the gene-gene interaction of human diseases.
 
-# File Discription
+# File Description
 ## ML
 ### Trainingset
 All the training sets for model construction.
